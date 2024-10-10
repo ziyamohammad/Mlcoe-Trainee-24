@@ -46,17 +46,15 @@ Create a new folder under the repository root with the following structure:
 Mlcoe-Trainee-24/
 └── your-name-project-name/
     ├── README.md
-    ├── public // for the assist and utilities 
-    ├── index.html
-    ├── styles
-    ├── src/ //if any available 
+    ├── images // for assets
+    ├── statics
+          ├── index.html
+          ├── script.js
+          ├── style.css
     
 ```
 - **README.md**: Project description, including installation steps and usage.
-- **data/**: Store any datasets or external resources.
-- **src/**: Include all source code files.
-- **notebooks/**: Jupyter notebooks or equivalent files for data analysis or model training.
-- **results/**: Outputs or generated files, such as images or trained models.
+
 
 ## Submitting Your Project
 
