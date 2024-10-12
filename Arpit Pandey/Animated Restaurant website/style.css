@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(10, 5, 15);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: rgb(249, 2, 2);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(37, 37, 239);
+    font-size: 1.2rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.img {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+
+.img::before {
+    content: "";
+    background-image:url(photos/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#head h1 {
+    font-style: italic;
+    font-size: 3rem;
+}
+
+#head p {
+    font-size: 1.5rem;
+    line-height: 6rem;
+}
+
+#services h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0px;
+}
+
+.container {
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    border: 2px solid brown;
+    border-radius: 28px;
+    width: 400px;
+    background-color: lavender;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.box img {
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+#menu {
+    padding: 40px 10px;
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+}
+
+#menu h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.item {
+    background-color: white;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.item p {
+    font-size: 1rem;
+}
+
+.price {
+    font-weight: bold;
+    color: rgb(210, 62, 62);
+}
+
+.item:hover {
+    transform: translateY(-6px);
+}
+
+#contact>h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#contact {
+    padding: 20px 0px;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+
+#contact::before {
+    content: "";
+    background-image:url(photos/contactimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.bottom {
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 14px 0px;
+}
+
+.message form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.message input {
+    border-radius: 20px;
+    width: 30%;
+    padding: 10px 2px;
+    margin: 10px auto;
+}
+
+#customers {
+    padding: 40px 20px;
+    background-color: rgb(234, 232, 232);
+    text-align: center;
+}
+
+#customers h1 {
+    font-size: 2.5rem;
+}
+
+.customers {
+    width: 55%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.customers p {
+    font-size: 1.2rem;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 10px;
+}
