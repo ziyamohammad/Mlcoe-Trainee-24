@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 .img::before {
     content: "";
-    background-image: url(img.jpg);
+    background-image:url(photos/img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -178,7 +178,7 @@ nav ul li a:hover {
 
 #contact::before {
     content: "";
-    background-image: url(contactimg.webp);
+    background-image:url(photos/contactimg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
