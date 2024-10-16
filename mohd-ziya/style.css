@@ -84,6 +84,8 @@
     margin-top:1em;
     border-radius:30px;
     font-family: myfont;
+    display:flex;
+    flex-wrap: wrap;
 
 
 }
@@ -107,10 +109,13 @@
         margin-left:3em;
     }
     .game1{
-        font-size:2em;
+        font-size:1em;
     }
     .cont1{
         width:86%;
+    }
+    .visit{
+        margin-top: 1em
     }
 
 }
@@ -592,7 +597,7 @@ nav button:hover{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    
+    flex-wrap:wrap;
     flex-direction: row-reverse;
     position:relative;
     margin-top:0vh;
@@ -601,12 +606,14 @@ nav button:hover{
     width:40%;
     height:85vh;
     margin-top:12vh;
+    position:absolute;
     /* background-color: rgb(6, 6, 68); */
     /* opacity:0.7; */
     background-blend-mode: lighten;
     display: flex;
     flex-direction:column;
     text-align:center;
+    margin-right:40em;
    
 }
 form{
@@ -666,6 +673,8 @@ form{
     height:70vh;
     margin-top:21vh;
     background-color: rgb(6, 6, 68);
+    position:absolute;
+    margin-left:50em;
     
 }
 @media (min-width:320px) and (max-width:375px){
@@ -744,6 +753,15 @@ form{
     }
     .four{
         width:299%;
+    }
+    .ct{
+        position:relative;
+        margin-right:0em;
+    }
+    .photo{
+        position:relative;
+        margin-left:0em;
+
     }
 
 
@@ -905,12 +923,17 @@ header{
 .photo{
     width:34%;
     height:44vh;
+    position:relative;
+    margin-left:0em;
 }
 .ct{
     width:51%;
     height:85vh;
     margin-bottom:1em;
+    position:relative;
+    margin-right:0em;
 }
+
 }
 @media (min-width:425px) and (max-width:760px){
 
@@ -1069,11 +1092,15 @@ header{
 .photo{
     width:34%;
     height:44vh;
+    position:relative;
+    margin-left:0em;
 }
 .ct{
     width:51%;
     height:85vh;
     margin-bottom:1em;
+    position:relative;
+    margin-right:0em;
 }
 }
 @media (min-width:768px) and (max-width:1020px){
@@ -1232,11 +1259,15 @@ header{
 .photo{
     width:34%;
     height:44vh;
+    position:relative;
+    margin-left:0em;
 }
 .ct{
     width:51%;
     height:85vh;
     margin-bottom:1em;
+    position:relative;
+    margin-right:0em;
 }
 }
 @media (min-width:1024px) and (max-width:1400px){
@@ -1396,11 +1427,15 @@ header{
 .photo{
     width:34%;
     height:44vh;
+    position:relative;
+    margin-left:0em;
 }
 .ct{
     width:36%;
     height:85vh;
     margin-bottom:3em;
+    position:relative;
+    margin-right:0em;
 }
 }
 
